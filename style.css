@@ -1,0 +1,215 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.heading {
+    height: 70px;
+    margin: 0px;
+    position: relative;
+    background-color: #f9fafc;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+}
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.content_01 {
+    height: 525px;
+    width: 100%;
+    background-color: #ebf2ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.sent_01 {
+    height: 300px;
+    width: 450px;
+    font-size: 3em;
+    color: #1d3557;
+}
+.photo_01 {
+    padding-top: 30px;
+    height: 475px;
+    width: 500px;
+    background-image: url(./heroShape.png), url(./herobgpattren.png);
+    background-size:475px, 475px;
+    position: left bottom, right middle;
+    background-repeat: no-repeat, no-repeat;
+    
+}
+.content_02 {
+    height: 120px;
+    width: 100%;
+    background-color: #ebf2ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+}
+.video_01 {
+    height: 50px;
+    width: 850px;
+}
+.sent_02 {
+    height: 50px;
+    width: 600px;
+    color: #1d3557;
+    font-size: 1.3em;
+    text-align: center;
+}
+.content_03 {
+    height: 575px;
+    width: 100%;
+    background-color: #ebf2ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px; 
+}
+
+.sent_03 {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: #1d3557;
+}
+.sent_04 {
+    height: 100px;
+    font-size: 1.2em;
+}
+.button_02{
+    width: 900px;
+    height: 50px;
+    background-color: #ebf2ff;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: red;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    transition-property: width , color;
+    transition-duration: 0.4s;
+}
+.button_02:hover {
+    width: 400px;
+    color: red;
+    background-color: white;
+}
+.content_04 {
+    height: 550px;
+    width: 100%;
+    background-color: #ebf2ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sent_05 {
+    height: 100px;
+    width: 450px;
+    color: #1d3557;
+    font-size: 3em;
+}
+.photo_03 {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.photo_frames_01 {
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+.photo_frames_02 {
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    
+    gap: 10px;
+}
+.img {
+    border-radius: 5px;
+}
+.content_05 {
+    height: 450px;
+    background-color: #ebf2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.sent_06 {
+    height: 10px;
+    width: 1000px;
+    position: relative;
+    font-size: 3em;
+    text-align: center;
+    color: #1d3557;
+}
+.email_button {
+    height: 50px;
+    width: 500px;
+    align-content: center;
+    position: relative;
+}
+.email {
+    height: 30px;
+    width: 275px;
+    background-color: #fcedf0;
+    border-color: #ff512f;
+    border-radius: 3px;
+    border-width: 0.3px;
+}
+.button_03 {
+    height: 40px;
+    width: 125px;
+    color: white;
+    background-color: red;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border-color: red;
+}
+.footer {
+    height: 190px;
+    width: 100%;
+    background-color: #fc3343;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.description {
+    height: 150px;
+    width: 300px;
+    font-size: 1.2em;
+    color: white;
+}
